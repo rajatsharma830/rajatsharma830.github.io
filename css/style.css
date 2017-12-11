@@ -678,9 +678,11 @@ button:hover, a:hover {
 li{
 	margin-bottom:40px;	
 }
-iframe{
-	width:600px;
-	height:350px;
+@media (min-width:768px){
+	iframe{
+		width:600px;
+		height:350px;
+	}
 }
 @media (max-width:768px) {
 	iframe{
